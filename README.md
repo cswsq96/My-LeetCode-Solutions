@@ -5,6 +5,8 @@ Solutions to LeetCode Problems.
 | # | Problem | Difficulty | Labels |
 |---| ------- | ---------- | ------ |
 |10|[Regular Expression Matching](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/10.%20Regular%20Expression%20Matching.md)|Hard| DP |
+|24|[Swap Nodes in Pairs](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/24.%20Swap%20Nodes%20in%20Pairs.md)|Medium| LinkedList |
+|25|[Reverse Nodes in k-Group](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/25.%20Reverse%20Nodes%20in%20k-Group.md)|Hard| LinkedList |
 |33|[Search in Rotated Sorted Array](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/33.%20Search%20in%20Rotated%20Sorted%20Array.md)|Medium| Binary Search |
 |34|[Find First and Last Position of Element in Sorted Array](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md)|Medium| Binary Search |
 |68|[Text Justification](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/68.%20Text%20Justification.md)|Hard| None |
@@ -34,6 +36,8 @@ Solutions to LeetCode Problems.
 |428|[Serialize and Deserialize N-ary Tree](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/428.%20Serialize%20and%20Deserialize%20N-ary%20Tree.md)|Hard| Tree |
 |443|[String Compression](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/443.%20String%20Compression.md)|Easy|Two Pointers|
 |539|[Minimum Time Difference](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/539.%20Minimum%20Time%20Difference.md)|Medium| None |
+|547|[Friend Circles](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/547.%20Friend%20Circles.md)|Medium| DFS \| BFS \| Union Find |
+|621|[Task Scheduler](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/621.%20Task%20Scheduler.md)|Medium| Top K \| Heap |
 |659|[Split Array into Consecutive Subsequences](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/659.%20Split%20Array%20into%20Consecutive%20Subsequences.md)|Medium|Heap \| HashMap|
 |697|[Degree of an Array](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/697.%20Degree%20of%20an%20Array.md)|Easy| None |
 |716|[Max Stack](https://github.com/cswsq96/My-LeetCode-Solutions/blob/master/Problems/716.%20Max%20Stack.md)|Easy| Deque \| Heap \| Stack |
