@@ -33,19 +33,38 @@ private int findFirstGreater(int[] nums, int target) {
 ```
 
 ### Find ceiling of a given target (ceiling : the smallest element that is greater than or equal to target)
+#### Solution 1
 ```java
 public int findCeiling(int[] nums, int target) {
-        int left = 0, right = nums.length - 1;
-        while (left < right) {
-            int mid = (right - left) / 2 + left;
-            if (nums[mid] <= target) {
-                left = mid + 1;
-            } else {
-                right = mid;
-            }
+    int left = 0, right = nums.length - 1;
+    while (left < right) {
+        int mid = (right - left) / 2 + left;
+        if (nums[mid] <= target) {
+            left = mid + 1;
+        } else {
+            right = mid;
         }
-        return nums[left] <= target ? left : -1;
     }
+    return nums[left] <= target ? left : -1;
+}
+```
+#### Solution 2
+```java
+public int findCeiling(int[] nums, int target) {
+	if (target > nums[nums.length - 1]) return -1;
+	
+    int left = 0, right = nums.length - 1;
+    while (left <= right) {
+        int mid = (right - left) / 2 + left;
+        if (nums[mid] == target) {
+            return nums[mid];
+        } else if (nums[mid] < target){
+            left = mid + 1;
+        } else {
+			right = mid - 1;
+		}
+    }
+    return nums[left];
 }
 ```
 
